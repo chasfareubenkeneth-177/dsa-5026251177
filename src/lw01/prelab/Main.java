@@ -29,7 +29,6 @@ public class Main {
             return;
         }
 
-        // Mencetak summary() dengan 1 loop (runtime polymorphism)
         for (PrintJob job : printJobs) {
             System.out.println(job.summary());
         }
