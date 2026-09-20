@@ -10,8 +10,6 @@ public class Main {
     public static void main(String[] args) {
         List<PrintJob> printJobs = new ArrayList<>();
 
-        // Sesuaikan path jika file txt tidak ditemukan.
-        // Berdasarkan struktur folder Anda, file berada di src/lw01/prelab/jobs.txt
         File file = new File("src/lw01/prelab/jobs.txt");
 
         try (Scanner scanner = new Scanner(file)) {
@@ -27,7 +25,7 @@ public class Main {
                 }
             }
         } catch (FileNotFoundException e) {
-            System.out.println("File jobs.txt tidak ditemukan. Pastikan path file benar.");
+            System.out.println("File jobs.txt tidak ditemukan.");
             return;
         }
 
