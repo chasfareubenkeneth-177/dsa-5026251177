@@ -28,7 +28,7 @@ public class Main {
         InputStream is = Main.class.getResourceAsStream("playlist.txt");
         
         if (is == null) {
-            System.out.println("File playlist.txt tidak ditemukan di classpath.");
+            System.out.println("playlist.txt tidak ditemukan");
             return;
         }
         
@@ -66,7 +66,7 @@ public class Main {
         InputStream is = Main.class.getResourceAsStream("participants.txt");
         
         if (is == null) {
-            System.out.println("File participants.txt tidak ditemukan di classpath.");
+            System.out.println("participants.txt tidak ditemukan");
             return;
         }
         
@@ -97,7 +97,7 @@ public class Main {
         InputStream is = Main.class.getResourceAsStream("inventory.txt");
         
         if (is == null) {
-            System.out.println("File inventory.txt tidak ditemukan di classpath.");
+            System.out.println("inventory.txt tidak ditemukan");
             return;
         }
         
